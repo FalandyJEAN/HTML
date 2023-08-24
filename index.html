@@ -12,11 +12,10 @@
             <h3>5 Coins</h3>
         </div>
         <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Your Order</a></li>
-            <li><a href="#">Contacts us</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about_us">About Us</a></li>
+            <li><a href="#foot">Contact Us</a></li>
+            <li><a href="#order">Your Order</a></li>
         </ul>
     </header>
 
@@ -83,14 +82,104 @@
                 <a href="">buy</a>
             </div>
         </div>
-        
     </section>
 
-
-    <footer id="foot">
-        <div>
-            <p>© Copyright 5 Coins 2023</p>
+<!--section about us-->
+    <section id="about_us">
+        <h4 class="mini_title">About Us</h4>
+        <h3 class="title">Why choose us?</h3>
+        <div class="about">
+            <div class="left">
+                <img src="IMAGES/about us.png" alt="about us picture">
+            </div>
+            <div class="right">
+                <h3>Best Food In Your Life</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consectetur ad omnis enim ratione impedit facere vel perferendis quisquam iure dicta adipisci, voluptas molestiae nemo qui sapiente velit, quo quod.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum illo suscipit odit? Aliquid culpa excepturi, nesciunt, distinctio inventore eveniet quaerat commodi ab voluptate voluptates sed eligendi soluta. Quas, impedit illum.</p>
+                <button><a href="#">Learn More</a></button>
+            </div>
         </div>
+    </section>
+
+<!--section comments-->
+    <section class="comment_section">
+        <h4 class="mini_title">Comments</h4>
+        <h2 class="title">What People this about us</h2>
+        <div class="comments">
+            <div class="comment">
+                <div>
+                    <img src="IMAGES/profile1.jpeg" alt="">
+                    <h4>Falandy Jean</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa sunt illum praesentium saepe porro deserunt, eaque, natus itaque voluptas illo, aperiam delectus aliquid autem vel quos optio? Laborum, illo!</p>
+            </div>
+            
+            <div class="comment">
+                <div>
+                    <img src="IMAGES/profile2.webp" alt="">
+                    <h4>Judith Joseph</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa sunt illum praesentium saepe porro deserunt, eaque, natus itaque voluptas illo, aperiam delectus aliquid autem vel quos optio? Laborum, illo!</p>
+            </div>
+
+            <div class="comment">
+                <div>
+                    <img src="IMAGES/profile3.jpeg" alt="">
+                    <h4>Mereus Paulder</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa sunt illum praesentium saepe porro deserunt, eaque, natus itaque voluptas illo, aperiam delectus aliquid autem vel quos optio? Laborum, illo!</p>
+            </div>    
+        </div>
+    </section>
+<!--sectoin order-->
+
+    <section id="order">
+        <h4 class="mini_title">Order</h4>
+        <h2 class="title">Fill this form to make an order</h2>
+        <form action="">
+            <label>Your Name</label>
+            <input type="text">
+            <Label>Your Email</Label>
+            <input type="email">
+            <label>Order Date</label>
+            <input type="date">
+            <input type="submit" value="Make the order">
+        </form>
+    </section>
+<!--footer-->
+    <footer id="foot">
+        <div class="services_list">
+            <div class="service">
+                <img src="IMAGES/clock.png">
+                <h2>Open</h2>
+                <p>10h30 to 19h00</p>
+                <br>
+            </div>
+
+            <div class="service">
+                <img src="IMAGES/location.jpg">
+                <h2>Adress</h2>
+                <p>Avenue Jean Paul 2</p>
+                <p>Port-au-Prince</p>
+            </div>
+
+            <div class="service">
+                <img src="IMAGES/email.png">
+                <h2>Email</h2>
+                <p>5coins@yahoo.fr</p>
+                <br>
+            </div>
+
+            <div class="service">
+                <img src="IMAGES/call.png">
+                <h2>Numbers</h2>
+                <p>+509 34333395</p>
+                <p>+509 40155195</p>
+            </div>
+        </div>
+
+        <hr>
+            <p class="footer_text">Build by <span>Falandy Jean</span> | All right reserved.</p>
     </footer>
 </body>
 </html>
